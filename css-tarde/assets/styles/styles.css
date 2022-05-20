@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white-glass: rgba(255,255,255,0.2);
+    /* --white-glass2: #ffffffcc; */
+}
+
+.back-city{
+    width: 100vw;   /*viewport width*/
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../img/city.jpg);
+    background-size: cover;
+}
+
+.card{
+    width: 750px;
+    height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass{
+    border: 10px solid var(--white-glass);
+    backdrop-filter: blur(8px);
+}
+
+.glass p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: var(--white-glass);
+}
+
+.glass p:hover{
+    font-size: 40px;
+    font-weight: bold;
+}
