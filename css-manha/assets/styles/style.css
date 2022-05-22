@@ -34,3 +34,8 @@
     padding: 20px;  /* Espaçamento Interno, ou seja, o espaço em que um elemento vai ter do seu conteúdo */
     border: 5px solid crimson;  /* Limite de um elemento, ou seja, sua borda */
 }
+
+/* Alternativa ao <br>*/
+label, input, button{
+    display: block;
+}
