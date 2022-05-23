@@ -1,0 +1,41 @@
+/* 
+
+    ID: Seletores únicos, ou seja, servem para  indicar uma config. única para determinada Tag.
+        Um ID deve ser único naquele arquivo HTML, mas pode ser importando em outros arquivos HTML, desde que se mantenham únicos nesses arquivos.
+    
+    Class: Seletores onde suas respectivas config. podem ser atribuídas a mais de uma Tag. Uma Tag pode receber mais de uma Classe. Ex: <p clas="p-first font-negrito">
+*/
+
+/* p{
+    color: pink;
+    text-align: center;
+    font-size: 20px;
+} */
+
+#p-first{
+    color: red;
+    text-align: justify;
+    font-size: 50px;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+/* Config. para o Display Flex, podendo assim organizar melhor os objetos/elementos/tags */
+.container{
+    display: flex;
+    justify-content: right; /* horizontal*/
+    align-items: center;    /* vertical */
+}
+
+.img-box{
+    margin: 5px;    /* Espaçamento Externo, ou seja, o espaço em que um elemento vai ter dos outros */
+    padding: 20px;  /* Espaçamento Interno, ou seja, o espaço em que um elemento vai ter do seu conteúdo */
+    border: 5px solid crimson;  /* Limite de um elemento, ou seja, sua borda */
+}
+
+/* Alternativa ao <br>*/
+label, input, button{
+    display: block;
+}
